@@ -1,0 +1,23 @@
+type project
+owners
+    Stefan Reichel
+authors 
+    Stefan Reichel
+projectUrl
+    http://github.com/bomret/FunkyTasks
+iconUrl
+    https://raw.githubusercontent.com/bomret/FunkyTasks/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/bomret/FunkyTasks/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    task async linq parallel concurrent
+summary
+    Functional combinators for System.Threading.Tasks
+description
+    This library provides functional combinators for the System.Threading.Task monad including full support for the LINQ query syntax.
+
+
