@@ -1,28 +1,21 @@
-using NUnit.Framework;
 using System.Threading.Tasks;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace FunkyTasks.Tests {
-
-    public sealed class CurrentThreadTaskScheduler : TaskScheduler
-    {
-        protected override void QueueTask(Task task)
-        {
-            TryExecuteTask(task);
+    public sealed class CurrentThreadTaskScheduler : TaskScheduler {
+        protected override void QueueTask (Task task) {
+            TryExecuteTask (task);
         }
 
-        protected override bool TryExecuteTaskInline(
+        protected override bool TryExecuteTaskInline (
             Task task, 
-            bool taskWasPreviouslyQueued)
-        {
-            return TryExecuteTask(task);
+            bool taskWasPreviouslyQueued) {
+            return TryExecuteTask (task);
         }
 
-        protected override IEnumerable<Task> GetScheduledTasks()
-        {
-            return Enumerable.Empty<Task>();
+        protected override IEnumerable<Task> GetScheduledTasks () {
+            return Enumerable.Empty<Task> ();
         }
 
         public override int MaximumConcurrencyLevel { get { return 1; } }

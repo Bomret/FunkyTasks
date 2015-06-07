@@ -14,10 +14,10 @@ requireLicenseAcceptance
 copyright
     Copyright 2015
 tags
-    task async linq parallel concurrent
+    task async linq parallel concurrent thread
 summary
-    Functional combinators for System.Threading.Tasks
+    Functional combinators for the Task type.
 description
-    This library provides functional combinators for the System.Threading.Task monad including full support for the LINQ query syntax.
+    This library provides functional combinators for the Task monad including full support for the LINQ query syntax.
 
 

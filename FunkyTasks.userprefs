@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="src/FunkyTasks/FunkyTasks.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="tests/FunkyTasks.Tests/MyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/FunkyTasks/paket.template">
     <Files>
-      <File FileName="tests/FunkyTasks.Tests/MyClass.cs" Line="9" Column="30" />
+      <File FileName="src/FunkyTasks/ControlExt.cs" Line="1" Column="1" />
+      <File FileName="src/FunkyTasks/FlattenExt.cs" Line="1" Column="1" />
+      <File FileName="src/FunkyTasks/paket.template" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

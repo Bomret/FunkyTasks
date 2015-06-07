@@ -1,28 +1,25 @@
-using NUnit.Framework;
 using System.Threading.Tasks;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace FunkyTasks.Tests {
-    public abstract class TaskTests {
-        protected static TaskScheduler _scheduler = new CurrentThreadTaskScheduler ();
+    public abstract class TestBase {
+        protected static TaskScheduler TestScheduler = new CurrentThreadTaskScheduler ();
 
-        public static Task<T> Fail<T>(Exception err){
+        public static Task<T> Err<T> (Exception err) {
             var tcs = new TaskCompletionSource<T> ();
             tcs.SetException (err);
 
             return tcs.Task;
         }
 
-        public static Task<T> Ok<T>(T val){
+        public static Task<T> Ok<T> (T val) {
             var tcs = new TaskCompletionSource<T> ();
             tcs.SetResult (val);
 
             return tcs.Task;
         }
 
-        public static Task<T> Cancelled<T>(){
+        public static Task<T> Cancel<T> () {
             var tcs = new TaskCompletionSource<T> ();
             tcs.SetCanceled ();
 
