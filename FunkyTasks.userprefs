@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="src/FunkyTasks/FunkyTasks.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/FunkyTasks/paket.template">
-    <Files>
-      <File FileName="src/FunkyTasks/ControlExt.cs" Line="1" Column="1" />
-      <File FileName="src/FunkyTasks/FlattenExt.cs" Line="1" Column="1" />
-      <File FileName="src/FunkyTasks/paket.template" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="FunkyTasks" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
