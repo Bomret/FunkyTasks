@@ -110,3 +110,4 @@ Backup*/
 UpgradeLog*.XML
 
 *.userprefs
+paket.exe
