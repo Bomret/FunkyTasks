@@ -39,6 +39,7 @@
     <Compile Include="ThenExt.cs" />
     <Compile Include="ControlExt.cs" />
     <Compile Include="OrElseExt.cs" />
+    <Compile Include="RecoverExt.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

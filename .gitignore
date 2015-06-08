@@ -111,3 +111,4 @@ UpgradeLog*.XML
 
 *.userprefs
 paket.exe
+.paket/paket.exe

@@ -39,6 +39,7 @@
     <Compile Include="SelectManyExt.Tests.cs" />
     <Compile Include="FlattenExt.Tests.cs" />
     <Compile Include="OrElseExt.Tests.cs" />
+    <Compile Include="RecoverExt.Tests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -286,7 +287,6 @@
   <ItemGroup>
     <Reference Include="nunit.framework">
       <HintPath>..\..\packages\NUnit\lib\nunit.framework.dll</HintPath>
-      <Private>True</Private>
       <Paket>True</Paket>
     </Reference>
   </ItemGroup>
